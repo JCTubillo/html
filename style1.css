@@ -1,0 +1,19 @@
+li.skills{
+    background-color: rgba(85, 80, 80, 0); 
+}
+.skills:hover{
+    background-color: rgb(114, 5, 165);
+}
+li.project{
+    background-color: rgba(85, 80, 80, 0); 
+}
+.project:hover{
+    background-color: rgb(114, 5, 165);
+}
+li.about{
+    background-color: rgba(85, 80, 80, 0); 
+}
+.about:hover{
+    background-color: rgb(114, 5, 165);
+}
+

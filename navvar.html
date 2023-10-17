@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--fontawsome-->
+    <script src="https://kit.fontawesome.com/699b07ab30.js" crossorigin="anonymous"></script>
+    <!--font awesome cdnjs-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- css-->
+    <link rel="stylesheet" href= "style.css">
+
+
+    <title>Navvar & Sidebar</title>
+</head>
+<body>
+   
+           
+            </ul>
+        
+                <nav>
+                    <div class="nav-wrapper blue">
+                        <a href="#" class="brand-logo center"><i class="fa-solid fa-utensils"></i></a>
+                        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fa-solid fa-bars"></i></a>
+
+                            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                                <li class="active"><a href="res" >Recipes </a></li>
+                                <li class="active"><a href="chef">Chefs</a></li>
+                                <li class="active"><a href="ab">About</a></li>
+                                
+                                
+                            </ul>
+
+                    </div>
+             </nav>
+
+             <ul class="sidenav" id="mobile-demo">
+                <li class="tab"><a href="res"></a>Recipes</li>
+                <li class="tab"><a href="chef"></a>Chefs</li>
+                <li class="tab"><a href="ab"></a>About</li>
+
+             </ul>
+             
+   
+      <br><br><br><br><br>
+    <div class="container">
+        <nav class="nav-extended">
+            <div class="nav-wrapper light-blue">
+                <a href="" class="brand-logo">Sinigang</a>
+            </div>
+            <div class="nav-content blue lighten-3">
+                    <ul class="tabs tabs-transparent">
+                            <li class="tab active"><a href="#Picture">Picture</a></li>
+                            <li class="tab active"><a href="#Ingredients">Ingredients</a></li>
+                            <li class="tab active"><a href="#HowtoCook">How to Cook</a></li>
+                    </ul>
+                    
+            </div>
+
+        </nav>
+        <div class="row"> 
+            <div id="Picture" class="col s12"><img src="https://panlasangpinoy.com/wp-content/uploads/2018/11/Sinigang-na-Baboy.jpg" class="responsive-img"  alt=""></div>
+            <div id="Ingredients" class="col s12">
+                ▢2 lbs pork belly or buto-buto <br>
+                ▢1 bunch spinach or kang-kong <br>
+                ▢3 tablespoons fish sauce <br>
+                ▢12 pieces string beans sitaw, cut in 2 inch length <br>
+                ▢2 pieces tomato quartered <br>
+                ▢3 pieces chili or banana pepper <br>
+                ▢1 tablespoons cooking oil <br>
+                ▢2 quarts water <br>
+                ▢1 piece onion sliced <br>
+                ▢2 pieces taro gabi, quartered <br>
+                ▢1 pack sinigang mix good for 2 liters water</div>
+                <div id="HowtoCook" class="col s12">
+                    <h3>How to Cook Sinigang</h3>
+                    <p>Pork Sinigang is delicious and easy to prepare. Note that this recipe will require to saute the onion and pork. Start by heating cooking oil in a cooking pot. Saute the onion until it gets soft. Add the sliced pork. We are using pork belly (or liempo) for this recipe. You may also use other pork slices such as shoulders or parts with bones. Add some fish sauce and continue to cook until the pork turns light brown. <br>
+
+                    It is time to add the liquid. This recipe calls for water. You may want to use half water and half beef broth if you prefer your sinigang to be really flavorful. Let the liquid boil and then add the tomato and taro (gabi). The tomato needs to blend in with the broth while the taro will need to cook for a longer time so that it will start to release starch that will make the soup thicker.</p>
+                 </div>
+
+        </div>
+            
+            
+    </div>
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>     
+    <script>
+        $(document).ready(function(){
+        $('.tabs').tabs();
+            });
+            $(".dropdown-trigger").dropdown();
+            $(document).ready(function(){
+         $('.sidenav').sidenav();
+  });
+    </script>
+</body>
+</html>
